@@ -1,6 +1,7 @@
 const path = require('path')
 const fs = require('path')
 const jimp = require('jimp')
+const fraction = require('fraction').FractionStream
 
 const defaultWidth = 300
 const defaultHeight = 300
@@ -26,7 +27,9 @@ function calculateAspect(options ={
     if (width === null || height === null){
         return 'N/A'
     }
-    
+
+    var decimal = width/height
+    var fraction = new Frac
 }
 
 const generateBlankImage = (options = {

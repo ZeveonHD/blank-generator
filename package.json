@@ -9,8 +9,6 @@
   "author": "Ryan Overdeer",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
     "jimp": "^0.22.12"
   }
 }

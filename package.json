@@ -1,0 +1,11 @@
+{
+  "name": "blank-generator",
+  "version": "1.0.0",
+  "description": "A basic utility to generate blank images in a variety of formats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Overdeer",
+  "license": "MIT"
+}

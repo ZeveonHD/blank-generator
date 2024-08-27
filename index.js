@@ -9,6 +9,10 @@ app.use(bodyParser.json())
 
 const PORT = 3000
 
+app.get('/', (req, res) => {
+
+})
+
 app.listen(PORT, (err) => {
     if (err){
         throw err

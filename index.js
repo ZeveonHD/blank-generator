@@ -1,22 +1,7 @@
 const path = require('path')
 const fs = require('fs')
-const express = require('express')
-const bodyParser = require('body-parser')
 
-const app = express()
-
-app.use(bodyParser.json())
-
-const PORT = 3000
-
-app.get('/', (req, res) => {
-
-})
-
-app.listen(PORT, (err) => {
-    if (err){
-        throw err
-    }
-
-    console.log(`Server is running on port ${PORT}`)
-})
+// Interface between backend and library
+const generateImage = () => {
+    
+}

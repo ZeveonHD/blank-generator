@@ -9,6 +9,7 @@
   "author": "Ryan Overdeer",
   "license": "MIT",
   "dependencies": {
+    "fraction": "^0.2.0",
     "jimp": "^0.22.12"
   }
 }
